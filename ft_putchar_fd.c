@@ -6,7 +6,7 @@
 /*   By: restevez <restevez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 10:33:57 by restevez          #+#    #+#             */
-/*   Updated: 2024/11/15 17:25:36 by restevez         ###   ########.fr       */
+/*   Updated: 2024/11/29 21:59:41 by restevez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,8 @@ int	main(int argc, char *argv[])
  */
 void	ft_putchar_fd(char c, int fd)
 {
+	if (fd == -1)
+		return ;
 	write(fd, &c, 1);
 	return ;
 }
