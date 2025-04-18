@@ -6,14 +6,14 @@
 /*   By: restevez <restevez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/30 04:22:08 by restevez          #+#    #+#             */
-/*   Updated: 2025/01/12 06:06:44 by restevez         ###   ########.fr       */
+/*   Updated: 2025/04/18 20:24:57 by restevez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 # include <stdarg.h>
-# include "libft/libft.h"
+# include "libft.h"
 # include <limits.h>
 
 int		ft_printf(const char *str, ...);

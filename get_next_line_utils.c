@@ -6,11 +6,11 @@
 /*   By: restevez <restevez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/12 07:23:46 by restevez          #+#    #+#             */
-/*   Updated: 2025/04/18 20:09:20 by restevez         ###   ########.fr       */
+/*   Updated: 2025/04/18 20:37:55 by restevez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
 {

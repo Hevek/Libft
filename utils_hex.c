@@ -6,11 +6,11 @@
 /*   By: restevez <restevez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/11 04:22:54 by restevez          #+#    #+#             */
-/*   Updated: 2025/01/11 04:53:12 by restevez         ###   ########.fr       */
+/*   Updated: 2025/04/18 20:37:41 by restevez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
 size_t	ft_put_hex(size_t nbr, size_t *chr_count)
 {

@@ -6,11 +6,11 @@
 /*   By: restevez <restevez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/30 02:46:00 by restevez          #+#    #+#             */
-/*   Updated: 2025/04/18 20:13:20 by restevez         ###   ########.fr       */
+/*   Updated: 2025/04/18 20:37:22 by restevez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
 int			ft_printf(const char *str, ...);
 static int	ft_flag_selector(char flag, va_list *args);

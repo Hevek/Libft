@@ -6,12 +6,14 @@
 /*   By: restevez <restevez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 21:21:49 by restevez          #+#    #+#             */
-/*   Updated: 2024/11/29 11:00:04 by restevez         ###   ########.fr       */
+/*   Updated: 2025/04/18 20:32:20 by restevez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
+# include "get_next_line.h"
+# include "ft_printf.h"
 # include <unistd.h>
 # include <stdlib.h>
 

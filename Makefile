@@ -6,7 +6,7 @@
 #    By: restevez <restevez@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/23 14:27:47 by restevez          #+#    #+#              #
-#    Updated: 2025/04/18 20:10:19 by restevez         ###   ########.fr        #
+#    Updated: 2025/04/18 20:36:39 by restevez         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,7 +46,12 @@ SRC = 	ft_atoi.c \
 		ft_substr.c \
 		ft_tolower.c \
 		ft_toupper.c \
-		get_next_line.c
+		get_next_line.c \
+		get_next_line_utils.c \
+		ft_printf.c \
+		utils_hex.c \
+		utils.c
+
 
 SRC_B = ft_lstnew_bonus.c
 
@@ -58,7 +63,9 @@ OBJECTS = $(SRC:%.c=%.o)
 
 OBJECTS_B = $(SRC_B:%.c=%.o)
 
-INCLUDES = 	libft.h get_next_line.h
+INCLUDES = 	libft.h \
+			get_next_line.h \
+			ft_printf.h
 
 RM = rm -f
 

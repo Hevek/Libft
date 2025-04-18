@@ -6,11 +6,11 @@
 /*   By: restevez <restevez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/03 11:12:49 by restevez          #+#    #+#             */
-/*   Updated: 2025/01/12 06:18:33 by restevez         ###   ########.fr       */
+/*   Updated: 2025/04/18 20:37:36 by restevez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
 size_t	ft_putnbr_base(unsigned int nbr, char *base, size_t *chr_count)
 {
